@@ -944,3 +944,1503 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.05-15.46.14:615][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.02.05-15.46.14:617][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
 [2023.02.05-15.46.14:665][929]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.02.05-15.49.18:688][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.05-15.49.25:899][ 12]LogMainFrame: Project does not require temp target
+[2023.02.05-15.49.25:901][ 12]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game-Win64-Shipping.target
+[2023.02.05-15.49.25:977][ 17]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2023.02.05-15.49.26:257][ 42]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject -cook -stage -archive -archivedirectory=D:/Desktop/WindowsNoEditor -package -ue4exe="D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Shipping -utf8output
+[2023.02.05-15.49.26:815][109]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.49.27:041][136]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2023.02.05-15.49.27:041][136]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.49.27:049][137]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.49.27.txt
+[2023.02.05-15.49.27:049][137]UATHelper: Packaging (Windows (64-bit)): Running: D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.49.27.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2023.02.05-15.49.27:742][220]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.49.27:742][220]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.49.27:742][220]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: GameJam23
+[2023.02.05-15.49.28:334][291]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2023.02.05-15.49.28:816][349]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17126645760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.05-15.49.29:058][378]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.05-15.49.29:084][381]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.05-15.49.29:099][383]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.05-15.49.29:099][383]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.05-15.49.29:107][384]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.05-15.49.29:117][385]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.02.05-15.49.29:117][385]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.05-15.49.29:125][386]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.05-15.49.29:132][387]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.02.05-15.49.29:141][388]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.02.05-15.49.29:141][388]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.02.05-15.49.29:167][391]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.02.05-15.49.29:167][391]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.02.05-15.49.29:183][393]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.02.05-15.49.29:183][393]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.02.05-15.49.29:191][394]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.02.05-15.49.29:191][394]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.02.05-15.49.29:200][395]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.05-15.49.29:200][395]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.05-15.49.29:208][396]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.02.05-15.49.29:216][397]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.05-15.49.29:225][398]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.05-15.49.29:225][398]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.05-15.49.29:225][398]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2023.02.05-15.49.29:235][399]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.05-15.49.29:266][403]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.02.05-15.49.29:750][461]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.02.05-15.49.30:251][521]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.02.05-15.49.30:301][527]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Fran/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.02.05-15.49.30:325][530]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.05-15.49.30:336][531]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1187.19MBs, RandomWriteSpeed=162.06MBs. Assigned SpeedClass 'Local'
+[2023.02.05-15.49.32:159][750]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.49.32:159][750]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.49.32:675][812]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.02.05-15.49.32:675][812]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2023.02.05-15.49.32:675][812]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2023.02.05-15.49.32:933][843]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2023.02.05-15.49.32:942][844]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Inisetting is different for  Game /Script/UnrealEd.ProjectPackagingSettings StagingDirectory 0, value (Path="D:/Desktop/WindowsNoEditor") != (Path="D/Desktop") invalidating cook
+[2023.02.05-15.49.32:942][844]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Game:/Script/UnrealEd.ProjectPackagingSettings
+[2023.02.05-15.49.32:942][844]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2023.02.05-15.49.32:967][847]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.029 seconds for platforms WindowsNoEditor
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2023.02.05-15.49.33:827][950]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2023.02.05-15.49.33:835][951]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2023.02.05-15.49.33:835][951]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.34:133][987]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 372 Total 372
+[2023.02.05-15.49.34:133][987]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=221, VirtualMemory=581MiB
+[2023.02.05-15.49.39:206][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.02.05-15.49.42:857][534]LogMainFrame: Project does not require temp target
+[2023.02.05-15.49.42:859][534]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game-Win64-Shipping.target
+[2023.02.05-15.49.42:925][539]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2023.02.05-15.49.42:992][545]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject -cook -stage -archive -archivedirectory=D:/Desktop -package -ue4exe="D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Shipping -utf8output
+[2023.02.05-15.49.43:563][611]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.49.43:789][638]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2023.02.05-15.49.43:797][639]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.49.43:797][639]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.49.43.txt
+[2023.02.05-15.49.43:797][639]UATHelper: Packaging (Windows (64-bit)): Running: D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.49.43.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2023.02.05-15.49.44:172][684]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.49.44:172][684]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.49.44:172][684]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: GameJam23
+[2023.02.05-15.49.44:697][747]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2023.02.05-15.49.45:181][805]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17126645760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.05-15.49.45:423][834]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.05-15.49.45:447][837]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.05-15.49.45:465][839]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.05-15.49.45:465][839]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.05-15.49.45:473][840]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.05-15.49.45:481][841]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.02.05-15.49.45:481][841]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.05-15.49.45:489][842]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.05-15.49.45:497][843]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.02.05-15.49.45:507][844]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.02.05-15.49.45:507][844]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.02.05-15.49.45:531][847]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.02.05-15.49.45:531][847]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.02.05-15.49.45:540][848]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.02.05-15.49.45:548][849]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.02.05-15.49.45:548][849]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.02.05-15.49.45:556][850]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.02.05-15.49.45:564][851]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.05-15.49.45:564][851]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.05-15.49.45:573][852]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.02.05-15.49.45:580][853]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.05-15.49.45:581][853]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.05-15.49.45:590][854]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.05-15.49.45:590][854]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2023.02.05-15.49.45:598][855]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.05-15.49.45:631][859]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.02.05-15.49.46:131][919]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.02.05-15.49.46:647][981]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.02.05-15.49.46:698][987]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Fran/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.02.05-15.49.46:724][990]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.05-15.49.46:724][990]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1317.21MBs, RandomWriteSpeed=150.62MBs. Assigned SpeedClass 'Local'
+[2023.02.05-15.49.48:498][203]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.49.48:498][203]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.49.49:007][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.02.05-15.49.49:007][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2023.02.05-15.49.49:007][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2023.02.05-15.49.49:247][293]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2023.02.05-15.49.49:257][294]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Inisetting is different for  Game /Script/UnrealEd.ProjectPackagingSettings StagingDirectory 0, value (Path="D:/Desktop") != (Path="D/Desktop/WindowsNoEditor") invalidating cook
+[2023.02.05-15.49.49:257][294]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Game:/Script/UnrealEd.ProjectPackagingSettings
+[2023.02.05-15.49.49:257][294]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2023.02.05-15.49.49:265][295]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.018 seconds for platforms WindowsNoEditor
+[2023.02.05-15.49.50:107][396]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2023.02.05-15.49.50:107][396]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2023.02.05-15.49.50:107][396]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2023.02.05-15.49.50:114][397]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.50:415][433]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 372 Total 372
+[2023.02.05-15.49.50:415][433]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=221, VirtualMemory=557MiB
+[2023.02.05-15.49.50:991][502]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 236 Packages Remain 339 Total 575
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128X128)
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128X128)
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128X128)
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture310E58554010446A08107499F126CE3D (BGRA8, 128X128)
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128X128)
+[2023.02.05-15.49.52:424][673]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128X128)
+[2023.02.05-15.49.52:434][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128X128)
+[2023.02.05-15.49.52:434][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128X128)
+[2023.02.05-15.49.52:434][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128X128)
+[2023.02.05-15.49.52:434][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128X128)
+[2023.02.05-15.49.52:734][709]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF60039EB445BD313D9FB3B83A10248ED (BGRA8, 128X128)
+[2023.02.05-15.49.53:027][744]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 529 Packages Remain 78 Total 607
+[2023.02.05-15.49.53:256][763]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 607 Packages Remain 0 Total 607
+[2023.02.05-15.49.53:256][763]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=613, VirtualMemory=1509MiB
+[2023.02.05-15.49.53:256][763]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2023.02.05-15.49.53:323][768]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2023.02.05-15.49.53:331][769]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2023.02.05-15.49.53:331][769]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2023.02.05-15.49.53:331][769]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2023.02.05-15.49.53:331][769]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2023.02.05-15.49.53:356][772]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry v8.
+[2023.02.05-15.49.53:380][775]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 629, size is 348.95kb
+[2023.02.05-15.49.53:380][775]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2023.02.05-15.49.53:454][784]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2023.02.05-15.49.53:454][784]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'GameJam23' (PCD3D_SM5) Stats:
+[2023.02.05-15.49.53:454][784]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 134, Unique Shadermaps: 124 (92.54%)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 3259, Unique Shaders: 2676 (82.11%)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 7.35mb, Unique Shaders Size: 6.39mb (86.97%)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 2
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 17
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 493
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     66, 52, 52, 27, 15, 15, 13, 11, 11, 11
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Shaders/PCD3D_SM5/ShaderDebug-GameJam23-PCD3D_SM5/Dump.txt'
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 2.624461s total time 4.461986
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 1522 MiB Peak Used physical 1569 MiB
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CleanSandbox: 0.018s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CollectFilesToCook: 0.294s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GenerateLongPackageName: 0.001s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 2.623s (30660)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.003s (62174)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackageForCooking: 0.803s (607)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 1.794s (45)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         BeginPackageCacheForCookedPlatformData: 0.235s (75)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.419s (604)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           BeginPackageCacheForCookedPlatformData: 0.419s (532)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 1.005s (607)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 0.987s (607)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.004s (607)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.003s (598)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.006s (607)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.001s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.009s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.127s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.015s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.003s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.027s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.038s (1)
+[2023.02.05-15.49.53:464][785]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.001083s to verify the EDL loading graph.
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000032
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.003011
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPreloadedDependencies=281
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumInlineLoads=18
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=536
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.269368
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: CookOnTheFlyServer
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakRequestQueueSize=353
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakLoadQueueSize=326
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakSaveQueueSize=318
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=607
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=0.938462
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.130598
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.036743
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000275
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.002260
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.004491
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000602
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.169854
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.249135
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.131633
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=586.921835
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=9.487486
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=5.018141
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=4.466936
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=1.409316
+[2023.02.05-15.49.53:473][786]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000015
+[2023.02.05-15.49.53:479][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=2.835932
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.803290
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.005064
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.654128
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.006822
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.004327
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.004046
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.001073
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =      1733
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =      1744
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.993693
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.040138
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.953555
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.006307
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =        11
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =        11
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             2.04                   0.00             0        430.47
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.40                   0.40             0         10.97
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.06                   0.06             0         10.90
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.06                   0.06             0         19.39
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.02                   0.02             0          3.94
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.01                   0.01             0          6.31
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             0          0.18
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Audio (Inline)                                  0.00                   0.00             0          0.00
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00            11        113.96
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   
+[2023.02.05-15.49.53:480][787]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  4.48 seconds
+[2023.02.05-15.49.53:796][825]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.05-15.49.53:796][825]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.02.05-15.49.53:796][825]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.02.05-15.49.53:796][825]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.02.05-15.49.53:796][825]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: ================================================
+[2023.02.05-15.49.54:221][876]UATHelper: Packaging (Windows (64-bit)):   LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2023.02.05-15.49.54:529][913]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2023.02.05-15.49.57:154][228]UATHelper: Packaging (Windows (64-bit)): Took 13,3569856s to run UE4Editor-Cmd.exe, ExitCode=0
+[2023.02.05-15.49.57:162][229]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2023.02.05-15.49.57:162][229]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2023.02.05-15.49.57:214][235]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditor.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorKeyBindings.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorSettings.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseLightmass.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BasePakFileRules.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\ConsoleVariables.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Category.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Editor.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\EditorTutorials.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Engine.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Keywords.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PortableObjectExport.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PortableObjectImport.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PropertyNames.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\RepairData.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\ToolTips.ini
+[2023.02.05-15.49.57:371][254]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\WordCount.ini
+[2023.02.05-15.49.57:379][255]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Documents\GitHub\TeamNameMissing\GameJam23\Config\DefaultEditor.ini
+[2023.02.05-15.49.57:480][267]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor
+[2023.02.05-15.49.57:530][273]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2023.02.05-15.49.57:647][287]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2023.02.05-15.50.07:652][406]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2023.02.05-15.50.17:665][416]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)): Output from: D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor\GameJam23\Content\Paks\GameJam23-WindowsNoEditor.pak -create="C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\PakList_GameJam23-WindowsNoEditor.txt" -cryptokeys=D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\Cooked\WindowsNoEditor\GameJam23\Metadata\Crypto.json -secondaryOrder=D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=Oodle -compressmethod=Kraken -compresslevel=5  -multiprocess -abslog="C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\UnrealPak-GameJam23-WindowsNoEditor-2023.02.05-16.49.57.txt" -compressionblocksize=256KB
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   OodleDataCompression: Display: Oodle v2.9.0 initializing with method=Kraken, level=5=Optimal1
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\PakList_GameJam23-WindowsNoEditor.txt
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2447 entries to add to pak file.
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2023.02.05-15.50.18:878][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2447 files in 0.01s.
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor\GameJam23\Content\Paks\GameJam23-WindowsNoEditor.pak.
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=999.00MBs, RandomWriteSpeed=999.00MBs. Assigned SpeedClass 'Local'
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 0 [Oodle] : 1069 files, 601390800 -> 287795173 bytes
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 1 [Zlib] : 62 files, 3593418 -> 1160811 bytes
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 2 [None] : 1316 files, 36997781 -> 36997781 bytes
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2447 files, 327353681 bytes total, time 20.00s.
+[2023.02.05-15.50.18:879][558]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PrimaryIndex size: 47834 bytes
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PathHashIndex size: 54590 bytes
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: FullDirectoryIndex size: 80963 bytes
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Compression summary: 47.76% of original size. Compressed Size 288955984 bytes, Original Size 604984218 bytes.
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 20.369247 seconds
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2023.02.05-15.50.18:887][559]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor
+[2023.02.05-15.50.21:504][873]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2023.02.05-15.50.21:511][874]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2023.02.05-15.50.21:511][874]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2023.02.05-15.50.21:511][874]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2023.02.05-15.50.21:512][874]UATHelper: Packaging (Windows (64-bit)): Archiving to D:/Desktop
+[2023.02.05-15.50.22:037][937]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2023.02.05-15.50.22:037][937]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2023.02.05-15.50.22:045][938]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2023.02.05-15.51.32:947][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.02.05-15.51.34:976][867]LogMainFrame: Project does not require temp target
+[2023.02.05-15.51.34:977][867]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game-Win64-Shipping.target
+[2023.02.05-15.51.35:060][874]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2023.02.05-15.51.35:360][906]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/Documents/GitHub/TeamNameMissing/GameJam23/GameJam23.uproject -cook -stage -archive -archivedirectory=D:/Desktop -package -ue4exe="D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Shipping -utf8output
+[2023.02.05-15.51.35:911][972]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.51.36:145][  0]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2023.02.05-15.51.36:145][  0]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject
+[2023.02.05-15.51.36:145][  0]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.51.36.txt
+[2023.02.05-15.51.36:145][  0]UATHelper: Packaging (Windows (64-bit)): Running: D:\Saved Games\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="D:\Saved Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2023.02.05-16.51.36.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2023.02.05-15.51.36:861][ 86]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.51.36:861][ 86]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2023.02.05-15.51.36:861][ 86]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: GameJam23
+[2023.02.05-15.51.37:405][151]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2023.02.05-15.51.37:886][209]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17126645760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.02.05-15.51.38:137][239]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.02.05-15.51.38:153][241]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.02.05-15.51.38:171][243]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.02.05-15.51.38:171][243]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.02.05-15.51.38:177][244]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.02.05-15.51.38:186][245]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.02.05-15.51.38:196][246]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.02.05-15.51.38:196][246]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.02.05-15.51.38:204][247]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.02.05-15.51.38:212][248]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.02.05-15.51.38:212][248]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.02.05-15.51.38:237][251]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.02.05-15.51.38:237][251]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.02.05-15.51.38:254][253]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.02.05-15.51.38:254][253]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.02.05-15.51.38:254][253]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.02.05-15.51.38:261][254]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.02.05-15.51.38:269][255]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.02.05-15.51.38:270][255]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.02.05-15.51.38:277][256]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.02.05-15.51.38:287][257]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.02.05-15.51.38:287][257]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.02.05-15.51.38:296][258]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.02.05-15.51.38:296][258]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2023.02.05-15.51.38:304][259]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.02.05-15.51.38:337][263]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.02.05-15.51.38:838][323]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.02.05-15.51.39:370][387]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.02.05-15.51.39:412][392]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Fran/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.02.05-15.51.39:428][394]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.05-15.51.39:439][395]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=843.02MBs, RandomWriteSpeed=150.12MBs. Assigned SpeedClass 'Local'
+[2023.02.05-15.51.41:254][613]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.51.41:254][613]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.02.05-15.51.41:763][674]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.02.05-15.51.41:763][674]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2023.02.05-15.51.41:763][674]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2023.02.05-15.51.42:028][706]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2023.02.05-15.51.42:038][707]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2023.02.05-15.51.42:047][708]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.019 seconds for platforms WindowsNoEditor
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2023.02.05-15.51.42:921][813]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.51.43:212][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 372 Total 372
+[2023.02.05-15.51.43:212][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=221, VirtualMemory=546MiB
+[2023.02.05-15.51.44:612][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128X128)
+[2023.02.05-15.51.44:612][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128X128)
+[2023.02.05-15.51.44:612][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture310E58554010446A08107499F126CE3D (BGRA8, 128X128)
+[2023.02.05-15.51.44:613][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128X128)
+[2023.02.05-15.51.44:613][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128X128)
+[2023.02.05-15.51.44:613][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128X128)
+[2023.02.05-15.51.44:613][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128X128)
+[2023.02.05-15.51.44:614][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128X128)
+[2023.02.05-15.51.44:614][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128X128)
+[2023.02.05-15.51.44:614][ 14]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128X128)
+[2023.02.05-15.51.44:996][ 58]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 462 Packages Remain 132 Total 594
+[2023.02.05-15.51.45:570][126]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: DeprecatedTextureF60039EB445BD313D9FB3B83A10248ED (BGRA8, 128X128)
+[2023.02.05-15.51.45:839][158]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 607 Packages Remain 0 Total 607
+[2023.02.05-15.51.45:839][158]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=618, VirtualMemory=896MiB
+[2023.02.05-15.51.45:839][158]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2023.02.05-15.51.46:058][184]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2023.02.05-15.51.46:058][184]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2023.02.05-15.51.46:058][184]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2023.02.05-15.51.46:058][184]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2023.02.05-15.51.46:058][184]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2023.02.05-15.51.46:083][187]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry v8.
+[2023.02.05-15.51.46:106][190]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 629, size is 348.95kb
+[2023.02.05-15.51.46:106][190]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2023.02.05-15.51.46:173][198]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2023.02.05-15.51.46:173][198]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'GameJam23' (PCD3D_SM5) Stats:
+[2023.02.05-15.51.46:173][198]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 134, Unique Shadermaps: 124 (92.54%)
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 3259, Unique Shaders: 2676 (82.11%)
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 7.35mb, Unique Shaders Size: 6.39mb (86.97%)
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 2
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 17
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 493
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     66, 52, 52, 27, 15, 15, 13, 11, 11, 11
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Shaders/PCD3D_SM5/ShaderDebug-GameJam23-PCD3D_SM5/Dump.txt'
+[2023.02.05-15.51.46:180][199]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 2.609192s total time 4.421953
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 1360 MiB Peak Used physical 1410 MiB
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CleanSandbox: 0.019s (1)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CollectFilesToCook: 0.289s (1)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GenerateLongPackageName: 0.001s (1)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 2.609s (13)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.002s (878)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackageForCooking: 0.863s (607)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 1.735s (45)
+[2023.02.05-15.51.46:181][199]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         BeginPackageCacheForCookedPlatformData: 0.193s (68)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.418s (604)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           BeginPackageCacheForCookedPlatformData: 0.418s (539)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 0.992s (607)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 0.974s (607)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.004s (607)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.003s (598)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.007s (607)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.001s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.008s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.119s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.016s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.003s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.025s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.026s (1)
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.000919s to verify the EDL loading graph.
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000033
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000422
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2023.02.05-15.51.46:190][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPreloadedDependencies=281
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumInlineLoads=35
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=519
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.359781
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: CookOnTheFlyServer
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakRequestQueueSize=353
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakLoadQueueSize=218
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakSaveQueueSize=210
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=607
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=0.924703
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.123885
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.037093
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000266
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.002243
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.003828
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000474
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.170771
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.242372
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.134177
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=586.921835
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=9.567517
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=5.139287
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=4.426330
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=1.453602
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000017
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=2.956838
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.863084
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=0.992174
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.611025
+[2023.02.05-15.51.46:191][200]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.000000
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.004581
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000024
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000033
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000079
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =      1733
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =      1744
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.993693
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.040138
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.953555
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.006307
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =        11
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =        11
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             1.89                   0.00             0        430.47
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.37                   0.37             0         10.97
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.09                   0.09             0         19.39
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.06                   0.06             0         10.90
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.01                   0.01             0          3.94
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.01                   0.01             0          6.31
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             0          0.18
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Audio (Inline)                                  0.00                   0.00             0          0.00
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00            11        113.96
+[2023.02.05-15.51.46:198][201]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2023.02.05-15.51.46:199][201]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2023.02.05-15.51.46:199][201]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2023.02.05-15.51.46:199][201]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2023.02.05-15.51.46:199][201]UATHelper: Packaging (Windows (64-bit)):   
+[2023.02.05-15.51.46:199][201]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  4.44 seconds
+[2023.02.05-15.51.46:747][267]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.05-15.51.46:747][267]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.02.05-15.51.46:747][267]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.02.05-15.51.46:747][267]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.02.05-15.51.46:747][267]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: ================================================
+[2023.02.05-15.51.47:007][298]UATHelper: Packaging (Windows (64-bit)):   LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2023.02.05-15.51.47:240][326]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2023.02.05-15.51.49:257][568]UATHelper: Packaging (Windows (64-bit)): Took 13,1132352s to run UE4Editor-Cmd.exe, ExitCode=0
+[2023.02.05-15.51.49:265][569]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2023.02.05-15.51.49:265][569]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2023.02.05-15.51.49:315][575]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2023.02.05-15.51.49:388][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditor.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorKeyBindings.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseEditorSettings.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BaseLightmass.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\BasePakFileRules.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\ConsoleVariables.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Category.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Editor.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\EditorTutorials.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Engine.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\Keywords.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PortableObjectExport.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PortableObjectImport.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\PropertyNames.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\RepairData.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\ToolTips.ini
+[2023.02.05-15.51.49:389][584]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Saved Games\UE_4.27\Engine\Config\Localization\WordCount.ini
+[2023.02.05-15.51.49:398][585]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Documents\GitHub\TeamNameMissing\GameJam23\Config\DefaultEditor.ini
+[2023.02.05-15.51.49:490][596]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor
+[2023.02.05-15.51.49:548][603]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2023.02.05-15.51.49:665][617]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2023.02.05-15.51.59:707][741]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2023.02.05-15.52.09:718][719]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)): Output from: D:\Documents\GitHub\TeamNameMissing\GameJam23\GameJam23.uproject D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor\GameJam23\Content\Paks\GameJam23-WindowsNoEditor.pak -create="C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\PakList_GameJam23-WindowsNoEditor.txt" -cryptokeys=D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\Cooked\WindowsNoEditor\GameJam23\Metadata\Crypto.json -secondaryOrder=D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=Oodle -compressmethod=Kraken -compresslevel=5  -multiprocess -abslog="C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\UnrealPak-GameJam23-WindowsNoEditor-2023.02.05-16.51.49.txt" -compressionblocksize=256KB
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   OodleDataCompression: Display: Oodle v2.9.0 initializing with method=Kraken, level=5=Optimal1
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\Fran\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Saved+Games+UE_4.27\PakList_GameJam23-WindowsNoEditor.txt
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2447 entries to add to pak file.
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file D:\Documents\GitHub\TeamNameMissing\GameJam23\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2447 files in 0.01s.
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor\GameJam23\Content\Paks\GameJam23-WindowsNoEditor.pak.
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/Fran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=999.00MBs, RandomWriteSpeed=999.00MBs. Assigned SpeedClass 'Local'
+[2023.02.05-15.52.10:203][777]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 0 [Oodle] : 1069 files, 601390800 -> 287795173 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 1 [Zlib] : 62 files, 3593418 -> 1160811 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 2 [None] : 1316 files, 36997781 -> 36997781 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2447 files, 327355729 bytes total, time 19.34s.
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PrimaryIndex size: 47834 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PathHashIndex size: 54590 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: FullDirectoryIndex size: 80963 bytes
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Compression summary: 47.76% of original size. Compressed Size 288955984 bytes, Original Size 604984218 bytes.
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 19.453027 seconds
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2023.02.05-15.52.10:212][778]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: D:\Documents\GitHub\TeamNameMissing\GameJam23\Saved\StagedBuilds\WindowsNoEditor
+[2023.02.05-15.52.12:127][  8]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2023.02.05-15.52.12:127][  8]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2023.02.05-15.52.12:127][  8]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2023.02.05-15.52.12:127][  8]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2023.02.05-15.52.12:127][  8]UATHelper: Packaging (Windows (64-bit)): Archiving to D:/Desktop
+[2023.02.05-15.52.12:677][ 74]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2023.02.05-15.52.12:677][ 74]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2023.02.05-15.52.12:677][ 74]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2023.02.05-16.20.15:027][848]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.02.05-16.22.42:637][525]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.02.05-16.22.50:114][375]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.05-16.22.50:133][375]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2023.02.05-16.22.50:312][375]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2023.02.05-16.22.51:078][375]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.05-16.23.29:296][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.02.05-16.23.29:308][252]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Level1_Auto153D311914B6980417EFE9EADF79A63A3.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Autosaves/Game/Assets_Julia/Scenes/Level1_Auto1.umap'
+[2023.02.05-16.23.29:309][252]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Assets_Julia/Scenes/Level1' took 0.033
+[2023.02.05-16.23.29:309][252]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2023.02.05-16.23.29:310][252]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2023.02.05-16.23.29:320][252]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Player.BP_Player]
+[2023.02.05-16.23.29:320][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2023.02.05-16.23.29:399][252]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/BP_Player_Auto1FAD8D21A40FEE7E16C7788B493994CA3.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Autosaves/Game/Blueprints/BP_Player_Auto1.uasset'
+[2023.02.05-16.23.29:400][252]LogFileHelpers: Auto-saving content packages took 0.091
+[2023.02.05-16.23.44:592][  7]LogSlate: Window 'BP_Player' being destroyed
+[2023.02.05-16.23.57:884][472]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Interface/Widgets/W_GameOver.W_GameOver
+[2023.02.05-16.24.45:803][142]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.24.45:803][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.24.45:809][142]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.24.45:809][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.26.53:758][371]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.02.05-16.27.09:942][157]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.02.05-16.27.09:954][157]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.02.05-16.27.20:212][380]LogContentBrowser: Attempting asset rename: NewMaterial -> PlayerCubeMiddle
+[2023.02.05-16.27.20:213][380]LogContentBrowser: End creating deferred item NewMaterial
+[2023.02.05-16.27.34:165][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2023.02.05-16.27.35:464][961]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.05-16.27.35:586][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.02.05-16.27.46:332][128]LogContentBrowser: Deferred new asset file creation: PlayerCube_Inst
+[2023.02.05-16.27.46:349][128]LogContentBrowser: Creating deferred item: PlayerCube_Inst
+[2023.02.05-16.27.47:825][302]LogContentBrowser: Attempting asset rename: PlayerCube_Inst -> PlayerCube_Inst
+[2023.02.05-16.27.47:825][302]LogContentBrowser: End creating deferred item PlayerCube_Inst
+[2023.02.05-16.27.49:538][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.02.05-16.27.50:658][483]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.05-16.27.50:719][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.02.05-16.28.00:444][632]LogMaterial: Display: Missing cached shadermap for PlayerCube_2 in PCD3D_SM5, Default, SM5 (DDC key hash: AEE700A1EE20CF52E1080E3ACDCA348EFB603432), compiling. 
+[2023.02.05-16.28.00:479][632]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2023.02.05-16.28.00:508][633]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2023.02.05-16.28.01:248][668]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.05-16.28.01:248][668]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2023.02.05-16.28.01:248][668]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.02.05-16.28.01:248][668]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.02.05-16.28.01:248][668]LogShaderCompilers: Display: ================================================
+[2023.02.05-16.28.02:479][774]LogMaterial: Display: Missing cached shadermap for PlayerCube_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 8737250136F2059C3D84B1C33EADB3FFB466C3CE), compiling. 
+[2023.02.05-16.28.02:490][774]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2023.02.05-16.28.02:515][775]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2023.02.05-16.28.15:242][994]LogContentBrowser: Attempting asset rename: PlayerCube_2 -> PlayerCube_Middle
+[2023.02.05-16.28.15:289][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerCube_Middle" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Middle.uasset" SILENT=true
+[2023.02.05-16.28.15:294][994]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/PlayerCube_Middle20873EFE4373469E4E30C2B46B3F9F86.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Middle.uasset'
+[2023.02.05-16.28.15:360][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.02.05-16.28.15:391][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.02.05-16.28.15:411][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.05-16.28.15:469][994]AssetCheck: New page: Asset Save: PlayerCube_Middle
+[2023.02.05-16.28.15:469][994]LogContentValidation: Display: Validating Material /Game/Materials/PlayerCube_Middle.PlayerCube_Middle
+[2023.02.05-16.28.22:769][702]LogContentBrowser: Attempting asset rename: PlayerCube_3 -> PlayerCube_Danger
+[2023.02.05-16.28.22:817][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerCube_Danger" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Danger.uasset" SILENT=true
+[2023.02.05-16.28.22:822][702]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/PlayerCube_DangerB713D148492E39ECFED0D18B668420D6.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Danger.uasset'
+[2023.02.05-16.28.22:877][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.02.05-16.28.22:908][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.02.05-16.28.22:926][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.05-16.28.22:981][702]AssetCheck: New page: Asset Save: PlayerCube_Danger
+[2023.02.05-16.28.22:981][702]LogContentValidation: Display: Validating Material /Game/Materials/PlayerCube_Danger.PlayerCube_Danger
+[2023.02.05-16.28.24:649][833]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/PlayerCube_Middle.PlayerCube_Middle
+[2023.02.05-16.28.24:650][833]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: F5A38561FC27D42071110135CBF069FAC88BC660), compiling. 
+[2023.02.05-16.28.24:658][833]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.24:663][833]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2023.02.05-16.28.24:735][833]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.02.05-16.28.24:865][833]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: 83FDF0380543D616ABD773C633EEF5582596F883), compiling. 
+[2023.02.05-16.28.24:867][833]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: F67DA334E6DA2CF2438069877A497C400A673E74), compiling. 
+[2023.02.05-16.28.24:869][833]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C631B1467E01A63242B8859F14EB6BD3C5B971F5), compiling. 
+[2023.02.05-16.28.24:882][833]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.24:922][833]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.24:923][833]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.24:923][833]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.05-16.28.25:012][839]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.25:012][839]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.28.25:012][839]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.02.05-16.28.25:012][839]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.25:593][900]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.26:159][959]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.26:159][959]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.26:159][959]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.26:159][959]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.30:388][445]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: 60E7ABD8C3D1E14CD88FE5609DBB0EB66BBC80A0), compiling. 
+[2023.02.05-16.28.30:390][445]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6D734B6814A1C4D4564335B21CF7A4F43F6AE69E), compiling. 
+[2023.02.05-16.28.30:391][445]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.30:395][446]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.30:399][447]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.30:399][447]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.30:399][447]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.30:399][447]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.30:402][447]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.30:402][447]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.30:402][447]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.30:402][447]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.30:402][447]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.30:406][447]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.30:412][448]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.28.30:412][448]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.02.05-16.28.30:412][448]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.30:953][498]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.31:386][550]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.31:386][550]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.31:386][550]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.31:386][550]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.32:137][640]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: 2A7967CAA6DA707ED495270AA13CFA06FCFB8662), compiling. 
+[2023.02.05-16.28.32:138][640]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DFC49892388227F77212705A1A3D61656369E7EB), compiling. 
+[2023.02.05-16.28.32:139][640]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.28.32:145][640]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.32:150][641]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.32:154][642]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.32:155][642]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.32:155][642]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.32:155][642]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.32:156][642]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.32:156][642]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.32:156][642]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.32:156][642]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.32:156][642]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.32:160][642]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.32:167][643]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.28.32:167][643]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.02.05-16.28.32:167][643]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.32:711][694]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.33:142][743]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.33:142][743]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.33:142][743]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.33:142][743]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.40:865][665]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: ACD72EAC0755857DFF7DAECF9FB9C466B2D09A5E), compiling. 
+[2023.02.05-16.28.40:867][665]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FF00F984A7ED7FE7FC231137529F2C93CC6B0BBA), compiling. 
+[2023.02.05-16.28.40:868][665]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.40:872][666]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.40:877][667]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.40:882][667]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.40:897][669]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.28.40:897][669]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.02.05-16.28.40:897][669]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.41:433][724]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.41:609][745]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: 54A9F35E47D3B3B07419FD996EEB2684C3708DE7), compiling. 
+[2023.02.05-16.28.41:611][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ED8F665922F999695711E8CBA31A2E3533BAD548), compiling. 
+[2023.02.05-16.28.41:613][745]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.28.41:622][745]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.41:642][747]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.41:884][776]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.41:884][776]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.41:884][776]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.41:884][776]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.44:272][ 59]LogMaterialEditor: Saving and Compiling material PlayerCube_Middle
+[2023.02.05-16.28.44:535][ 59]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: 41EC431C9866DD8612571A4EBA6CD52C4A1E2983), compiling. 
+[2023.02.05-16.28.44:558][ 59]LogMaterial: Display: Missing cached shadermap for PlayerCube_Middle in PCD3D_SM5, Default, SM5 (DDC key hash: F344B7D60F9856B8534B300C864355B8A0266488), compiling. 
+[2023.02.05-16.28.44:592][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.02.05-16.28.44:598][ 59]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.44:824][ 59]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.02.05-16.28.44:824][ 59]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.44:824][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.05-16.28.44:863][ 59]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2023.02.05-16.28.44:870][ 59]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.44:881][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerCube_Middle" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Middle.uasset" SILENT=true
+[2023.02.05-16.28.44:886][ 59]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/PlayerCube_Middle7AAF9E134440250629FCD5B128B051A5.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Middle.uasset'
+[2023.02.05-16.28.44:901][ 59]AssetCheck: New page: Asset Save: PlayerCube_Middle
+[2023.02.05-16.28.44:901][ 59]LogContentValidation: Display: Validating Material /Game/Materials/PlayerCube_Middle.PlayerCube_Middle
+[2023.02.05-16.28.44:907][ 59]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.45:306][103]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.28.45:323][105]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.45:323][105]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.45:323][105]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.45:323][105]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.28.46:645][260]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.28.46:645][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.28.51:070][729]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/PlayerCube_Danger.PlayerCube_Danger
+[2023.02.05-16.28.51:071][729]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 46E04DDD3DC1BDC15D5B0931571B4DBCB595936A), compiling. 
+[2023.02.05-16.28.51:080][729]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.51:150][729]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 69E652AE9FE6F85EF467038D5EE0F6AAE6402892), compiling. 
+[2023.02.05-16.28.51:152][729]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: F6CFE21C863A7DF6594211C92380F300FF76BACD), compiling. 
+[2023.02.05-16.28.51:153][729]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BABB28680CB8FB94617074AA1DF4A861B68CB265), compiling. 
+[2023.02.05-16.28.51:164][729]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.51:218][730]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.51:681][776]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.52:133][830]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.52:133][830]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.52:133][830]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.52:133][830]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.58:335][566]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 0E747C519D5F9BE574EDE0A54C6EE017F6F0DFA0), compiling. 
+[2023.02.05-16.28.58:336][566]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 721F52854FA7F3B9FD82ADFE13A028AA00BA12FD), compiling. 
+[2023.02.05-16.28.58:338][566]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.58:341][567]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.58:341][567]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.28.58:341][567]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.28.58:341][567]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.28.58:346][568]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.28.58:353][568]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.58:361][569]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.28.58:361][569]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.02.05-16.28.58:361][569]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.28.58:890][621]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.59:325][673]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.59:325][673]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.59:325][673]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.59:325][673]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.59:550][700]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 475DED3FED68946805617042DC11DD44D89DE0E3), compiling. 
+[2023.02.05-16.28.59:552][700]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 933F959FFBC8D85FEB19962E9AA645185E6A8B91), compiling. 
+[2023.02.05-16.28.59:552][700]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.28.59:559][700]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.28.59:575][702]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.28.59:585][703]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.28.59:585][703]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.28.59:585][703]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.28.59:585][703]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.29.05:502][386]LogMaterialEditor: Saving and Compiling material PlayerCube_Danger
+[2023.02.05-16.29.05:741][386]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 5B2DF0667432D8CBA970AB0285D9D5938401C7D8), compiling. 
+[2023.02.05-16.29.05:759][386]LogMaterial: Display: Missing cached shadermap for PlayerCube_Danger in PCD3D_SM5, Default, SM5 (DDC key hash: 3A2F432E7F9391BDF60DF19AD0B93C4DDE11A8C4), compiling. 
+[2023.02.05-16.29.05:792][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.02.05-16.29.05:798][386]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.29.06:025][386]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.02.05-16.29.06:025][386]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.29.06:025][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.02.05-16.29.06:064][386]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2023.02.05-16.29.06:067][386]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.29.06:082][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerCube_Danger" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Danger.uasset" SILENT=true
+[2023.02.05-16.29.06:413][386]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/PlayerCube_Danger0567E0A94CF9B8928D84D599C9738B73.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Materials/PlayerCube_Danger.uasset'
+[2023.02.05-16.29.06:426][386]AssetCheck: New page: Asset Save: PlayerCube_Danger
+[2023.02.05-16.29.06:426][386]LogContentValidation: Display: Validating Material /Game/Materials/PlayerCube_Danger.PlayerCube_Danger
+[2023.02.05-16.29.06:431][386]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.29.06:437][387]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.29.06:446][388]MaterialEditorStats: Base pass shader: 118 instructions
+[2023.02.05-16.29.06:446][388]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2023.02.05-16.29.06:446][388]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.29.06:446][388]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.29.38:825][ 32]BlueprintLog: New page: Compile BP_Player
+[2023.02.05-16.29.38:911][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.02.05-16.30.12:023][629]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets_Julia/Materials/EnemyTile.EnemyTile
+[2023.02.05-16.30.12:025][629]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: CE2CB1D9B2574F25B01D1B0EB74B54D4CFCB7578), compiling. 
+[2023.02.05-16.30.12:036][629]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.12:077][629]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: F23F7B4919E4B7936A9B786160546839A817DE55), compiling. 
+[2023.02.05-16.30.12:079][629]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 033869CA20834355BE0ECA14FB5AA3CAA68E786A), compiling. 
+[2023.02.05-16.30.12:081][629]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: E86AF77963CE83A84014219D6F6AA07AC0E4A520), compiling. 
+[2023.02.05-16.30.12:082][629]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D24915F7F5D9CCA51D25E09C32AC5B66F5A273FE), compiling. 
+[2023.02.05-16.30.12:094][629]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.30.12:147][630]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.12:243][638]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.12:243][638]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2023.02.05-16.30.12:243][638]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.12:807][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.30.12:807][693]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.12:818][694]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.13:191][735]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.13:191][735]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.30.13:191][735]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.30.13:191][735]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.13:440][764]MaterialEditorStats: Base pass shader: 121 instructions
+[2023.02.05-16.30.13:440][764]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2023.02.05-16.30.13:440][764]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2023.02.05-16.30.13:440][764]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.13:440][764]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.20:509][490]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 80B3DD9F9985F75427A843C48B852A69704C3B05), compiling. 
+[2023.02.05-16.30.20:510][490]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1178768FD0B67DE158315FFA4BB113B293B3E7DC), compiling. 
+[2023.02.05-16.30.20:513][490]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.20:531][492]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.20:545][493]MaterialEditorStats: Base pass shader: 121 instructions
+[2023.02.05-16.30.20:545][493]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2023.02.05-16.30.20:545][493]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2023.02.05-16.30.20:545][493]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.20:545][493]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.21:340][577]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: AC7B12A437BAEC2DB055EA983413A380278820F8), compiling. 
+[2023.02.05-16.30.21:342][577]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 42C60ECE91D128AEE45292BCEB04B9A73171B7CB), compiling. 
+[2023.02.05-16.30.21:344][577]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.21:361][579]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.21:372][580]MaterialEditorStats: Base pass shader: 121 instructions
+[2023.02.05-16.30.21:372][580]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2023.02.05-16.30.21:372][580]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2023.02.05-16.30.21:372][580]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.21:372][580]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.22:164][675]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 2521E59E2F88BFC79A8267E570852588468200A8), compiling. 
+[2023.02.05-16.30.22:165][675]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D98B6F4793A6DC611C8F3DD910E216CB23B07CAB), compiling. 
+[2023.02.05-16.30.22:166][675]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.30.22:173][675]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.22:191][677]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.22:202][678]MaterialEditorStats: Base pass shader: 121 instructions
+[2023.02.05-16.30.22:202][678]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2023.02.05-16.30.22:202][678]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2023.02.05-16.30.22:202][678]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.22:202][678]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.25:169][ 12]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 6D5161A55C6B8059950D1E2AB65BF79DEB5782C0), compiling. 
+[2023.02.05-16.30.25:171][ 12]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 037999B73D728F3C7DCCC0A71B5C6E2C2A76CDE2), compiling. 
+[2023.02.05-16.30.25:173][ 12]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.25:178][ 13]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.25:178][ 13]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.02.05-16.30.25:178][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.30.25:178][ 13]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.02.05-16.30.25:185][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.25:192][ 14]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.25:202][ 15]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2023.02.05-16.30.25:202][ 15]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.25:603][ 49]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.02.05-16.30.25:603][ 49]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.25:752][ 61]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.26:286][105]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.02.05-16.30.26:286][105]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2023.02.05-16.30.26:286][105]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.02.05-16.30.26:286][105]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.26:286][105]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.26:369][115]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 071A4FBE9C4F8A65261E5A06F048340412BBC7FF), compiling. 
+[2023.02.05-16.30.26:371][115]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3FEA7BBF36AE7246A8AEC0CBBAA4294B4749A5DE), compiling. 
+[2023.02.05-16.30.26:373][115]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.26:392][117]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.26:403][118]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.02.05-16.30.26:403][118]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2023.02.05-16.30.26:403][118]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.02.05-16.30.26:403][118]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.26:403][118]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.27:753][268]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 821472A1815821E0591A3CB135C4D1E455819CDA), compiling. 
+[2023.02.05-16.30.27:755][268]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8811F42F8C47734F476532F36A5965B2104A6F7F), compiling. 
+[2023.02.05-16.30.27:756][268]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.30.27:763][268]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.05-16.30.27:783][270]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.27:795][271]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.02.05-16.30.27:795][271]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2023.02.05-16.30.27:795][271]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.02.05-16.30.27:795][271]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.27:795][271]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.29:220][435]LogMaterialEditor: Saving and Compiling material EnemyTile
+[2023.02.05-16.30.29:461][435]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 3E3450808D6BC8C69745A2B65CEF0405B2A862CC), compiling. 
+[2023.02.05-16.30.29:480][435]LogMaterial: Display: Missing cached shadermap for EnemyTile in PCD3D_SM5, Default, SM5 (DDC key hash: 7081DC019EB621E11A69DAECE4F0B3F472E82650), compiling. 
+[2023.02.05-16.30.29:516][435]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.02.05-16.30.29:523][435]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.29:750][435]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.02.05-16.30.29:750][435]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.02.05-16.30.29:750][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.05-16.30.29:804][435]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.02.05-16.30.29:813][435]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.02.05-16.30.29:822][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Julia/Materials/EnemyTile" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Assets_Julia/Materials/EnemyTile.uasset" SILENT=true
+[2023.02.05-16.30.29:828][435]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/EnemyTile0EC2AAF243E35247CDCD25963CDEBFA3.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Assets_Julia/Materials/EnemyTile.uasset'
+[2023.02.05-16.30.29:847][435]AssetCheck: New page: Asset Save: EnemyTile
+[2023.02.05-16.30.29:847][435]LogContentValidation: Display: Validating Material /Game/Assets_Julia/Materials/EnemyTile.EnemyTile
+[2023.02.05-16.30.29:853][435]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.05-16.30.30:514][501]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.30.30:798][528]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.02.05-16.30.30:798][528]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2023.02.05-16.30.30:798][528]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.02.05-16.30.30:798][528]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.02.05-16.30.30:798][528]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.05-16.30.31:617][621]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.30.31:622][621]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.05-16.30.31:622][621]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2023.02.05-16.30.31:655][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.02.05-16.30.31:656][621]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2023.02.05-16.30.31:657][621]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:30:31 PM)
+[2023.02.05-16.30.31:688][621]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.30.31:691][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002788s)
+[2023.02.05-16.30.31:692][621]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.30.31:692][621]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2023.02.05-16.30.31:692][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.004020s)
+[2023.02.05-16.30.31:712][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.02.05-16.30.31:712][621]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.30.31:712][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.30.31:713][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.30.31:713][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.30.31:713][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.30.31:713][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.30.31:713][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.30.31:713][621]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.30.31:716][621]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.30.31:716][621]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.30.31:729][621]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.30.31:729][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.30.31:729][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.30.31:730][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.30.31:730][621]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.30.31:730][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.30.31:730][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.30.31:731][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.30.31:731][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.30.31:731][621]LogInit: FAudioDevice initialized.
+[2023.02.05-16.30.31:731][621]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1'.
+[2023.02.05-16.30.31:746][621]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.30.31:747][621]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.30.31
+[2023.02.05-16.30.31:747][621]LogWorld: Bringing up level for play took: 0.000689
+[2023.02.05-16.30.31:747][621]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.02.05-16.30.31:759][621]PIE: Server logged in
+[2023.02.05-16.30.31:760][621]PIE: Play in editor total start time 0.139 seconds.
+[2023.02.05-16.30.43:019][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.30.43:019][349]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.30.43:019][349]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.30.43:020][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.30.43:045][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.30.43:055][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.30.43:072][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.30.43:073][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.30.43:074][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.30.43:079][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.02.05-16.30.43:110][350]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.02.05-16.31.48:206][588]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.02.05-16.33.18:877][215]BlueprintLog: New page: Compile BP_Player
+[2023.02.05-16.33.18:957][215]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.02.05-16.33.21:449][474]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.33.21:454][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-16.33.21:454][474]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:33:21 PM)
+[2023.02.05-16.33.21:477][474]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.33.21:480][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002640s)
+[2023.02.05-16.33.21:481][474]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.33.21:481][474]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2023.02.05-16.33.21:481][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.003665s)
+[2023.02.05-16.33.21:503][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.02.05-16.33.21:504][474]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.33.21:504][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.33.21:504][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.33.21:504][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.33.21:504][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.33.21:504][474]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.33.21:507][474]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.33.21:507][474]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.33.21:520][474]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.33.21:521][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.33.21:521][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.33.21:521][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.33.21:521][474]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.33.21:521][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.33.21:521][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.33.21:522][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.33.21:522][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.33.21:522][474]LogInit: FAudioDevice initialized.
+[2023.02.05-16.33.21:522][474]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level1'.
+[2023.02.05-16.33.21:532][474]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.33.21:533][474]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.33.21
+[2023.02.05-16.33.21:533][474]LogWorld: Bringing up level for play took: 0.000546
+[2023.02.05-16.33.21:533][474]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2023.02.05-16.33.21:543][474]PIE: Server logged in
+[2023.02.05-16.33.21:544][474]PIE: Play in editor total start time 0.09 seconds.
+[2023.02.05-16.33.50:348][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.33.50:348][348]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.33.50:348][348]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.33.50:349][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.33.50:375][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.33.50:383][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.33.50:402][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-16.33.50:402][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.33.50:403][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.33.50:405][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.33.50:410][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.02.05-16.33.50:442][349]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.02.05-16.34.18:007][380]BlueprintLog: New page: Compile BP_Player
+[2023.02.05-16.34.18:087][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2023.02.05-16.34.39:869][734]BlueprintLog: New page: Compile BP_Player
+[2023.02.05-16.34.39:949][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.02.05-16.34.42:119][962]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.34.42:123][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-16.34.42:123][962]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:34:42 PM)
+[2023.02.05-16.34.42:157][962]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.34.42:160][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002894s)
+[2023.02.05-16.34.42:161][962]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.34.42:161][962]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.02.05-16.34.42:161][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.003931s)
+[2023.02.05-16.34.42:183][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.02.05-16.34.42:184][962]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.34.42:184][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.34.42:184][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.34.42:185][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.34.42:185][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.34.42:185][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.34.42:185][962]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.34.42:188][962]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.34.42:188][962]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.34.42:200][962]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.34.42:201][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.34.42:201][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.34.42:201][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.34.42:201][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.34.42:201][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.34.42:201][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.34.42:202][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.34.42:202][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.34.42:202][962]LogInit: FAudioDevice initialized.
+[2023.02.05-16.34.42:202][962]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2023.02.05-16.34.42:207][962]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.34.42:207][962]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.34.42
+[2023.02.05-16.34.42:208][962]LogWorld: Bringing up level for play took: 0.000686
+[2023.02.05-16.34.42:208][962]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.02.05-16.34.42:218][962]PIE: Server logged in
+[2023.02.05-16.34.42:219][962]PIE: Play in editor total start time 0.096 seconds.
+[2023.02.05-16.34.56:069][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.34.56:069][865]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.34.56:069][865]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.34.56:069][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.34.56:099][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.34.56:107][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.34.56:125][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.34.56:125][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.34.56:127][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.34.56:132][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.02.05-16.34.56:161][866]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.02.05-16.35.19:090][150]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.35.19:095][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-16.35.19:095][150]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:35:19 PM)
+[2023.02.05-16.35.19:095][150]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.35.19:098][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003358s)
+[2023.02.05-16.35.19:099][150]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.35.19:100][150]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2023.02.05-16.35.19:100][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.005003s)
+[2023.02.05-16.35.19:121][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.02.05-16.35.19:123][150]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.35.19:123][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.35.19:123][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.35.19:123][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.35.19:123][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.35.19:123][150]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.35.19:126][150]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.35.19:126][150]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.35.19:139][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.35.19:139][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.35.19:140][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.35.19:140][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.35.19:140][150]LogInit: FAudioDevice initialized.
+[2023.02.05-16.35.19:140][150]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2023.02.05-16.35.19:150][150]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.35.19:151][150]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.35.19
+[2023.02.05-16.35.19:152][150]LogWorld: Bringing up level for play took: 0.001041
+[2023.02.05-16.35.19:152][150]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2023.02.05-16.35.19:162][150]PIE: Server logged in
+[2023.02.05-16.35.19:163][150]PIE: Play in editor total start time 0.069 seconds.
+[2023.02.05-16.35.44:209][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.35.44:209][729]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.35.44:209][729]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.35.44:209][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.35.44:219][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.35.44:228][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.35.44:248][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.35.44:248][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.35.44:249][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.35.44:256][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.02.05-16.35.44:286][730]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.02.05-16.36.20:430][652]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.36.23:980][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.36.23:985][ 29]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.05-16.36.23:987][ 29]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2023.02.05-16.36.24:100][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2023.02.05-16.36.24:102][ 29]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2023.02.05-16.36.24:102][ 29]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:36:24 PM)
+[2023.02.05-16.36.24:102][ 29]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.36.24:105][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002724s)
+[2023.02.05-16.36.24:106][ 29]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.36.24:106][ 29]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2023.02.05-16.36.24:106][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.003925s)
+[2023.02.05-16.36.24:127][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.02.05-16.36.24:127][ 29]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.36.24:127][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.36.24:128][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.36.24:128][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.36.24:128][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.36.24:128][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.36.24:128][ 29]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.36.24:131][ 29]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.36.24:131][ 29]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.36.24:144][ 29]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.36.24:144][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.36.24:144][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.36.24:144][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.36.24:145][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.36.24:145][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.36.24:145][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.36.24:146][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.36.24:146][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.36.24:146][ 29]LogInit: FAudioDevice initialized.
+[2023.02.05-16.36.24:146][ 29]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2023.02.05-16.36.24:156][ 29]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.36.24:157][ 29]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.36.24
+[2023.02.05-16.36.24:157][ 29]LogWorld: Bringing up level for play took: 0.000563
+[2023.02.05-16.36.24:157][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2023.02.05-16.36.24:167][ 29]PIE: Server logged in
+[2023.02.05-16.36.24:168][ 29]PIE: Play in editor total start time 0.184 seconds.
+[2023.02.05-16.36.27:638][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.36.27:638][246]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.36.27:638][246]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.36.27:639][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.36.27:651][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.36.27:659][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.36.27:678][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-16.36.27:678][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.36.27:679][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.36.27:682][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.36.27:687][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.02.05-16.36.27:712][247]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.02.05-16.36.46:912][ 59]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.36.49:176][287]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.36.56:429][ 16]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.37.00:685][433]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.37.04:739][826]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.37.09:412][286]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.05-16.37.10:582][401]BlueprintLog: New page: Compile BP_Player
+[2023.02.05-16.37.10:677][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.02.05-16.37.12:392][569]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.05-16.37.12:396][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-16.37.12:396][569]PIE: New page: PIE session: Level1 (Feb 5, 2023, 6:37:12 PM)
+[2023.02.05-16.37.12:396][569]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.37.12:399][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002711s)
+[2023.02.05-16.37.12:400][569]LogAIModule: Creating AISystem for world Level1
+[2023.02.05-16.37.12:400][569]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2023.02.05-16.37.12:400][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level1.Level1 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 (0.003842s)
+[2023.02.05-16.37.12:423][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2023.02.05-16.37.12:424][569]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.05-16.37.12:424][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.05-16.37.12:424][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-16.37.12:424][569]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-16.37.12:425][569]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-16.37.12:425][569]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-16.37.12:425][569]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.05-16.37.12:427][569]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.05-16.37.12:427][569]LogAudioMixer: Display: 1: FrontRight
+[2023.02.05-16.37.12:441][569]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2023.02.05-16.37.12:442][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-16.37.12:442][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-16.37.12:442][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-16.37.12:442][569]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.05-16.37.12:442][569]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.05-16.37.12:442][569]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.05-16.37.12:443][569]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.05-16.37.12:443][569]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.05-16.37.12:443][569]LogInit: FAudioDevice initialized.
+[2023.02.05-16.37.12:443][569]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2023.02.05-16.37.12:452][569]LogLoad: Game class is 'GameModeBase'
+[2023.02.05-16.37.12:453][569]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.02.05-17.37.12
+[2023.02.05-16.37.12:453][569]LogWorld: Bringing up level for play took: 0.000560
+[2023.02.05-16.37.12:453][569]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.02.05-16.37.12:463][569]PIE: Server logged in
+[2023.02.05-16.37.12:464][569]PIE: Play in editor total start time 0.068 seconds.
+[2023.02.05-16.37.58:198][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.37.58:198][427]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level1
+[2023.02.05-16.37.58:198][427]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-16.37.58:199][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.37.58:224][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-16.37.58:233][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-16.37.58:252][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-16.37.58:253][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.37.58:254][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.05-16.37.58:256][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-16.37.58:260][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.02.05-16.37.58:289][428]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.02.05-16.38.14:785][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.02.05-16.38.14:800][ 14]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Level1C9724901434A3147716CFEB5C3EC8881.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level1.umap'
+[2023.02.05-16.38.14:810][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Julia/Scenes/Level1_BuiltData" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level1_BuiltData.uasset" SILENT=true
+[2023.02.05-16.38.14:824][ 14]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/Level1_BuiltData77DBB4014A1CE584B237B49E401B7708.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level1_BuiltData.uasset'
+[2023.02.05-16.38.14:837][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.05-16.38.14:837][ 14]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Assets_Julia/Scenes/Level1_BuiltData.Level1_BuiltData
+[2023.02.05-16.38.14:837][ 14]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level1.Level1
+[2023.02.05-16.38.27:030][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.02.05-16.38.28:247][150]LogSlate: Window 'Save Content' being destroyed
+[2023.02.05-16.38.28:282][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2023.02.05-16.38.28:375][150]LogSavePackage: Moving '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Saved/BP_Player0682760A4A4E97D236D5FF98B6BAD6C1.tmp' to '../../../../../Documents/GitHub/TeamNameMissing/GameJam23/Content/Blueprints/BP_Player.uasset'
+[2023.02.05-16.38.28:387][150]AssetCheck: New page: Asset Save: BP_Player
+[2023.02.05-16.38.28:387][150]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
