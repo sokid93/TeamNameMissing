@@ -1961,3 +1961,708 @@ Script Stack (0 frames):
 [2023.03.19-13.18.09:197][171]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
 [2023.03.19-13.18.09:256][172]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2023.03.19-13.18.15:286][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.03.19-13.21.36:659][632]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Assets_Julia/Scenes/Level1.Level1:PersistentLevel.Level1
+[2023.03.19-13.32.54:760][508]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2023.03.19-13.32.54:969][508]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scenes/MainMenu.MainMenu
+[2023.03.19-13.32.54:972][508]Cmd: MAP LOAD FILE="../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Scenes/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.19-13.32.54:972][508]LightingResults: New page: Lighting Build
+[2023.03.19-13.32.54:975][508]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.03.19-13.32.54:996][508]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.32.54:997][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.32.55:056][508]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.32.55:057][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.32.55:058][508]MapCheck: New page: Map Check
+[2023.03.19-13.32.55:058][508]LightingResults: New page: Lighting Build
+[2023.03.19-13.32.55:101][508]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.32.55:138][508]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2023.03.19-13.32.55:146][508]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.03.19-13.32.55:152][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.19-13.32.55:153][508]LogAIModule: Creating AISystem for world MainMenu
+[2023.03.19-13.32.55:200][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.03.19-13.32.55:214][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.19-13.32.55:214][508]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.247ms to complete.
+[2023.03.19-13.32.55:214][508]LogFileHelpers: Loading map 'MainMenu' took 0.244
+[2023.03.19-13.32.59:202][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.03.19-13.32.59:265][744]LogLinker: Warning: [AssetLog] C:\Users\samto\OneDrive\Documents\Unreal Projects\GGJ2023\TeamNameMissing\GameJam23\Content\Scenes\FranTestScene.umap: Failed to load '/Game/Scenes/FranTestScene_BuiltData': Can't find file.
+[2023.03.19-13.32.59:265][744]LogLinker: Warning: [AssetLog] C:\Users\samto\OneDrive\Documents\Unreal Projects\GGJ2023\TeamNameMissing\GameJam23\Content\Scenes\FranTestScene.umap: Failed to load '/Game/Scenes/FranTestScene_BuiltData': Can't find file.
+[2023.03.19-13.32.59:267][744]LogLinker: Warning: [AssetLog] C:\Users\samto\OneDrive\Documents\Unreal Projects\GGJ2023\TeamNameMissing\GameJam23\Content\Scenes\FranTestScene.umap: Failed to load '/Game/Scenes/FranTestScene_BuiltData': Can't find file.
+[2023.03.19-13.32.59:272][744]LogLinker: Warning: [AssetLog] C:\Users\samto\OneDrive\Documents\Unreal Projects\GGJ2023\TeamNameMissing\GameJam23\Content\Scenes\FranTestScene.umap: Failed to load '/Game/Scenes/FranTestScene_BuiltData': Can't find file.
+[2023.03.19-13.32.59:273][744]LoadErrors: Failed to load /Game/Scenes/FranTestScene_BuiltData.FranTestScene_BuiltData Referenced by PersistentLevel
+[2023.03.19-13.32.59:305][744]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scenes/FranTestScene.FranTestScene
+[2023.03.19-13.32.59:305][744]Cmd: MAP LOAD FILE="../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Scenes/FranTestScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.19-13.32.59:305][744]LightingResults: New page: Lighting Build
+[2023.03.19-13.32.59:305][744]LoadErrors: New page: Loading map: FranTestScene.umap
+[2023.03.19-13.32.59:306][744]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.32.59:307][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.32.59:307][744]MapCheck: New page: Map Check
+[2023.03.19-13.32.59:307][744]LightingResults: New page: Lighting Build
+[2023.03.19-13.32.59:343][744]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.32.59:348][744]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.03.19-13.32.59:349][744]LogAudio: Display: Audio Device (ID: 1) registered with world 'FranTestScene'.
+[2023.03.19-13.32.59:358][744]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.19-13.32.59:358][744]LogAIModule: Creating AISystem for world FranTestScene
+[2023.03.19-13.32.59:398][744]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.03.19-13.32.59:411][744]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.19-13.32.59:412][744]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.309ms to complete.
+[2023.03.19-13.32.59:412][744]LogFileHelpers: Loading map 'FranTestScene' took 0.107
+[2023.03.19-13.33.08:903][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.03.19-13.33.08:968][306]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Assets_Julia/Scenes/Level1.Level1
+[2023.03.19-13.33.08:968][306]Cmd: MAP LOAD FILE="../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.19-13.33.08:968][306]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.08:968][306]LoadErrors: New page: Loading map: Level1.umap
+[2023.03.19-13.33.08:969][306]LogWorld: UWorld::CleanupWorld for FranTestScene, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.33.08:969][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.33.08:969][306]MapCheck: New page: Map Check
+[2023.03.19-13.33.08:969][306]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.09:005][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.33.09:011][306]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2023.03.19-13.33.09:012][306]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2023.03.19-13.33.09:019][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.19-13.33.09:019][306]LogAIModule: Creating AISystem for world Level1
+[2023.03.19-13.33.09:064][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2023.03.19-13.33.09:076][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.19-13.33.09:077][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.22ms to complete.
+[2023.03.19-13.33.09:077][306]LogFileHelpers: Loading map 'Level1' took 0.109
+[2023.03.19-13.33.16:301][734]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2023.03.19-13.33.24:189][174]LogContentBrowser: Attempting asset rename: Level1_2 -> Level2
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.SKEL_Level2_C' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.Level2_C' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.SKEL_Level2_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.SKEL_Level2_C:ReceiveTick' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.SKEL_Level2_C:CheckNumberOfTiles' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:231][174]LogMetaData: Removing '/Game/Assets_Julia/Scenes/Level2.Level2_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets_Julia/Scenes/Level1_2.PackageMetaData'
+[2023.03.19-13.33.24:322][174]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2023.03.19-13.33.24:349][174]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2F20AAD7A46A91A704FDA8C9AEA1A25F8.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.33.24:354][174]LogFileHelpers: Saving map 'Level2' took 0.079
+[2023.03.19-13.33.24:476][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.03.19-13.33.24:524][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.03.19-13.33.24:560][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.03.19-13.33.24:667][174]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.33.24:667][174]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.33.26:542][243]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2023.03.19-13.33.26:575][243]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.33.26:576][243]Cmd: MAP LOAD FILE="../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.19-13.33.26:576][243]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.26:576][243]LoadErrors: New page: Loading map: Level2.umap
+[2023.03.19-13.33.26:578][243]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.33.26:578][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.33.26:578][243]MapCheck: New page: Map Check
+[2023.03.19-13.33.26:578][243]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.26:622][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.33.26:659][243]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2023.03.19-13.33.26:661][243]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2023.03.19-13.33.26:671][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.19-13.33.26:671][243]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.33.26:714][243]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2023.03.19-13.33.26:728][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.19-13.33.26:728][243]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.217ms to complete.
+[2023.03.19-13.33.26:728][243]LogFileHelpers: Loading map 'Level2' took 0.152
+[2023.03.19-13.33.30:369][457]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Assets_Julia/Scenes/Level1.Level1:PersistentLevel.Level1
+[2023.03.19-13.33.37:295][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2023.03.19-13.33.37:312][817]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.33.37:312][817]Cmd: MAP LOAD FILE="../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.19-13.33.37:312][817]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.37:312][817]LoadErrors: New page: Loading map: Level2.umap
+[2023.03.19-13.33.37:315][817]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.33.37:315][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.33.37:315][817]MapCheck: New page: Map Check
+[2023.03.19-13.33.37:315][817]LightingResults: New page: Lighting Build
+[2023.03.19-13.33.37:362][817]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.33.37:369][817]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2023.03.19-13.33.37:385][817]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.33.37:385][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.33.37:486][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2023.03.19-13.33.37:539][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.03.19-13.33.37:558][817]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2023.03.19-13.33.37:559][817]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.33.37:565][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.19-13.33.37:619][817]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2023.03.19-13.33.37:632][817]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.19-13.33.37:632][817]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.253ms to complete.
+[2023.03.19-13.33.37:632][817]LogFileHelpers: Loading map 'Level2' took 0.320
+[2023.03.19-13.33.42:624][115]LogEditorViewport: Clicking on Actor (LMB): GridControl_C (GridControl)
+[2023.03.19-13.33.51:660][652]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2023.03.19-13.33.53:810][652]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.33.53:902][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.03.19-13.33.53:929][652]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2790D343B473CAB4E238DF4A13F85E370.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.33.53:949][652]LogFileHelpers: Saving map 'Level2' took 0.096
+[2023.03.19-13.33.53:964][652]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.33.53:964][652]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.40.34:334][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2023.03.19-13.40.36:010][592]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.40.36:104][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.03.19-13.40.36:130][592]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level26FC258A040ABAA7F029B228C78992B43.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.40.36:150][592]LogFileHelpers: Saving map 'Level2' took 0.095
+[2023.03.19-13.40.36:166][592]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.40.36:166][592]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.40.39:447][778]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.40.39:475][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.40.39:476][778]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:40:39 PM)
+[2023.03.19-13.40.39:476][778]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.40.39:482][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006476s)
+[2023.03.19-13.40.39:483][778]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.40.39:484][778]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2023.03.19-13.40.39:484][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.008077s)
+[2023.03.19-13.40.39:531][778]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2023.03.19-13.40.39:535][778]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.40.39:535][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.40.39:536][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.40.39:536][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.40.39:536][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.40.39:536][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.40.39:536][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.40.39:536][778]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.40.39:538][778]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.40.39:539][778]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.40.39:571][778]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.40.39:572][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.40.39:572][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.40.39:572][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.40.39:573][778]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.40.39:573][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.40.39:573][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.40.39:574][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.40.39:574][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.40.39:575][778]LogInit: FAudioDevice initialized.
+[2023.03.19-13.40.39:575][778]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level2'.
+[2023.03.19-13.40.39:591][778]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.40.39:593][778]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.40.39
+[2023.03.19-13.40.39:594][778]LogWorld: Bringing up level for play took: 0.001180
+[2023.03.19-13.40.39:594][778]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.03.19-13.40.39:647][778]PIE: Server logged in
+[2023.03.19-13.40.39:648][778]PIE: Play in editor total start time 0.191 seconds.
+[2023.03.19-13.40.50:187][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.40.50:187][405]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.40.50:187][405]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.40.50:189][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.40.50:205][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.40.50:247][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.40.50:299][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.40.50:299][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.40.50:301][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.40.50:315][405]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2023.03.19-13.40.50:371][406]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.19-13.40.56:791][789]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.41.27:000][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2023.03.19-13.41.28:179][572]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.41.28:270][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.03.19-13.41.28:303][572]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2EABCCF2F487A46ADE48ED0AFA46427F5.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.41.28:323][572]LogFileHelpers: Saving map 'Level2' took 0.116
+[2023.03.19-13.41.28:339][572]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.41.28:339][572]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.41.30:581][688]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.41.30:624][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.41.30:624][688]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:41:30 PM)
+[2023.03.19-13.41.30:624][688]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.41.30:629][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004674s)
+[2023.03.19-13.41.30:631][688]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.41.30:631][688]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2023.03.19-13.41.30:631][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.006970s)
+[2023.03.19-13.41.30:677][688]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2023.03.19-13.41.30:679][688]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.41.30:679][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.41.30:679][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.41.30:680][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.41.30:680][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.41.30:680][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.41.30:680][688]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.41.30:681][688]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.41.30:682][688]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.41.30:711][688]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.41.30:712][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.41.30:712][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.41.30:712][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.41.30:713][688]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.41.30:713][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.41.30:713][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.41.30:715][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.41.30:715][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.41.30:715][688]LogInit: FAudioDevice initialized.
+[2023.03.19-13.41.30:715][688]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level2'.
+[2023.03.19-13.41.30:728][688]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.41.30:729][688]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.41.30
+[2023.03.19-13.41.30:730][688]LogWorld: Bringing up level for play took: 0.000915
+[2023.03.19-13.41.30:730][688]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.03.19-13.41.30:784][688]PIE: Server logged in
+[2023.03.19-13.41.30:785][688]PIE: Play in editor total start time 0.195 seconds.
+[2023.03.19-13.41.34:098][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.41.34:098][880]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.41.34:099][880]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.41.34:101][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.41.34:114][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.41.34:128][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.41.34:176][880]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-13.41.34:177][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.41.34:178][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.41.34:184][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.41.34:191][880]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2023.03.19-13.41.34:227][881]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.19-13.41.40:056][218]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.41.41:489][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.03.19-13.41.42:394][354]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.41.59:735][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.03.19-13.42.00:634][438]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.42.01:198][470]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.42.01:292][475]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.42.18:132][468]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2023.03.19-13.42.19:698][468]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.42.19:769][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.03.19-13.42.19:795][468]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level23481A2C2426A757DCCA798AF33AF851A.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.42.19:814][468]LogFileHelpers: Saving map 'Level2' took 0.089
+[2023.03.19-13.42.19:828][468]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.42.19:829][468]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.42.21:665][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.03.19-13.42.21:691][572]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2AF738DAD4B3D6B133C25F995C948B92D.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.42.21:732][572]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.42.21:732][572]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.42.24:480][733]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.42.24:494][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.42.24:494][733]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:42:24 PM)
+[2023.03.19-13.42.24:494][733]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.42.24:498][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003735s)
+[2023.03.19-13.42.24:499][733]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.42.24:500][733]LogPlayLevel: PIE: World Init took: (0.001894s)
+[2023.03.19-13.42.24:500][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.005869s)
+[2023.03.19-13.42.24:546][733]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2023.03.19-13.42.24:547][733]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.42.24:547][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.42.24:547][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.42.24:548][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.42.24:548][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.42.24:548][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.42.24:548][733]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.42.24:550][733]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.42.24:550][733]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.42.24:583][733]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.42.24:583][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.42.24:583][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.42.24:583][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.42.24:584][733]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.42.24:584][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.42.24:584][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.42.24:587][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.42.24:587][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.42.24:587][733]LogInit: FAudioDevice initialized.
+[2023.03.19-13.42.24:587][733]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level2'.
+[2023.03.19-13.42.24:594][733]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.42.24:595][733]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.42.24
+[2023.03.19-13.42.24:595][733]LogWorld: Bringing up level for play took: 0.000938
+[2023.03.19-13.42.24:596][733]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.03.19-13.42.24:648][733]PIE: Server logged in
+[2023.03.19-13.42.24:649][733]PIE: Play in editor total start time 0.159 seconds.
+[2023.03.19-13.42.28:749][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.42.28:749][974]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.42.28:750][974]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.42.28:753][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.42.28:768][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.42.28:783][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.42.28:831][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.42.28:831][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.42.28:832][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.42.28:846][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2023.03.19-13.42.28:900][975]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.19-13.42.34:506][307]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.42.35:216][349]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.42.35:313][354]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.42.47:502][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2023.03.19-13.42.48:739][ 68]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.42.48:817][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.03.19-13.42.48:843][ 68]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level28AB694904177A0F705FD93AD41205E36.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.42.48:864][ 68]LogFileHelpers: Saving map 'Level2' took 0.095
+[2023.03.19-13.42.48:880][ 68]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.42.48:880][ 68]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.42.50:492][162]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.42.50:506][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.42.50:506][162]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:42:50 PM)
+[2023.03.19-13.42.50:506][162]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.42.50:512][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004966s)
+[2023.03.19-13.42.50:513][162]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.42.50:513][162]LogPlayLevel: PIE: World Init took: (0.001807s)
+[2023.03.19-13.42.50:513][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.007021s)
+[2023.03.19-13.42.50:561][162]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2023.03.19-13.42.50:562][162]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.42.50:562][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.42.50:562][162]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.42.50:562][162]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.42.50:562][162]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.42.50:562][162]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.42.50:564][162]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.42.50:564][162]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.42.50:595][162]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.42.50:595][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.42.50:595][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.42.50:595][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.42.50:596][162]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.42.50:596][162]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.42.50:596][162]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.42.50:598][162]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.42.50:598][162]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.42.50:598][162]LogInit: FAudioDevice initialized.
+[2023.03.19-13.42.50:598][162]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level2'.
+[2023.03.19-13.42.50:605][162]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.42.50:606][162]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.42.50
+[2023.03.19-13.42.50:606][162]LogWorld: Bringing up level for play took: 0.000784
+[2023.03.19-13.42.50:606][162]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2023.03.19-13.42.50:656][162]PIE: Server logged in
+[2023.03.19-13.42.50:657][162]PIE: Play in editor total start time 0.154 seconds.
+[2023.03.19-13.42.53:866][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.42.53:866][350]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.42.53:866][350]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.42.53:868][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.42.53:885][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.42.53:900][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.42.53:946][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.42.53:948][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.42.53:949][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.42.53:968][350]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.03.19-13.42.54:015][351]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.03.19-13.43.03:186][898]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.43.03:244][901]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.43.08:344][203]Cmd: TRANSACTION UNDO
+[2023.03.19-13.43.08:344][203]LogEditorTransaction: Undo Move Components
+[2023.03.19-13.43.09:294][238]Cmd: TRANSACTION UNDO
+[2023.03.19-13.43.09:294][238]LogEditorTransaction: Undo Clicking on Components
+[2023.03.19-13.43.12:943][453]Cmd: TRANSACTION UNDO
+[2023.03.19-13.43.12:943][453]LogEditorTransaction: Undo Move Actors
+[2023.03.19-13.43.16:095][624]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.43.16:172][628]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.43.46:140][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2023.03.19-13.43.47:385][389]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.43.47:480][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.03.19-13.43.47:508][389]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2E04E590A4495896254B4B4812C17C992.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.43.47:528][389]LogFileHelpers: Saving map 'Level2' took 0.102
+[2023.03.19-13.43.47:544][389]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.43.47:544][389]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.43.50:328][552]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.43.50:343][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.43.50:343][552]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:43:50 PM)
+[2023.03.19-13.43.50:343][552]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.43.50:347][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2023.03.19-13.43.50:349][552]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.43.50:350][552]LogPlayLevel: PIE: World Init took: (0.002846s)
+[2023.03.19-13.43.50:350][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.006813s)
+[2023.03.19-13.43.50:397][552]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2023.03.19-13.43.50:398][552]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.19-13.43.50:398][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.43.50:398][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.43.50:398][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.43.50:398][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.43.50:399][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.43.50:399][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.43.50:399][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.43.50:399][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.43.50:399][552]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.43.50:399][552]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.43.50:399][552]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.43.50:399][552]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.43.50:401][552]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.43.50:401][552]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.43.50:431][552]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.43.50:431][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.43.50:431][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.43.50:431][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.43.50:432][552]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.43.50:432][552]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.43.50:432][552]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.43.50:434][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.43.50:434][552]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.43.50:434][552]LogInit: FAudioDevice initialized.
+[2023.03.19-13.43.50:434][552]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level2'.
+[2023.03.19-13.43.50:444][552]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.43.50:445][552]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.43.50
+[2023.03.19-13.43.50:445][552]LogWorld: Bringing up level for play took: 0.000835
+[2023.03.19-13.43.50:445][552]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.03.19-13.43.50:495][552]PIE: Server logged in
+[2023.03.19-13.43.50:496][552]PIE: Play in editor total start time 0.156 seconds.
+[2023.03.19-13.43.54:155][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.43.54:155][765]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.43.54:156][765]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.43.54:157][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.43.54:171][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.43.54:186][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.43.54:233][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.43.54:234][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.43.54:235][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.43.54:248][765]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2023.03.19-13.43.54:296][766]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.19-13.43.58:597][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.43.58:675][ 26]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.05:672][438]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2023.03.19-13.44.07:225][438]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.44.07:320][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.03.19-13.44.07:346][438]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2770CBC024BD0F158A9FC91B3A015FC69.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.44.07:365][438]LogFileHelpers: Saving map 'Level2' took 0.099
+[2023.03.19-13.44.07:381][438]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.44.07:381][438]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.44.09:185][542]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.44.09:199][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.44.09:199][542]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:44:09 PM)
+[2023.03.19-13.44.09:199][542]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.09:203][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003909s)
+[2023.03.19-13.44.09:205][542]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.44.09:206][542]LogPlayLevel: PIE: World Init took: (0.002850s)
+[2023.03.19-13.44.09:206][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.007031s)
+[2023.03.19-13.44.09:253][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2023.03.19-13.44.09:254][542]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.44.09:254][542]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.44.09:254][542]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.44.09:255][542]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.44.09:255][542]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.44.09:255][542]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.44.09:255][542]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.44.09:257][542]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.44.09:257][542]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.44.09:287][542]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.44.09:287][542]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.44.09:287][542]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.44.09:287][542]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.44.09:288][542]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.44.09:289][542]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.44.09:289][542]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.44.09:290][542]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.44.09:290][542]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.44.09:290][542]LogInit: FAudioDevice initialized.
+[2023.03.19-13.44.09:290][542]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level2'.
+[2023.03.19-13.44.09:298][542]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.44.09:299][542]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.44.09
+[2023.03.19-13.44.09:299][542]LogWorld: Bringing up level for play took: 0.000774
+[2023.03.19-13.44.09:299][542]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.03.19-13.44.09:349][542]PIE: Server logged in
+[2023.03.19-13.44.09:350][542]PIE: Play in editor total start time 0.154 seconds.
+[2023.03.19-13.44.10:976][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.10:976][635]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.10:977][635]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.44.10:979][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.10:998][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.44.11:012][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.11:063][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.11:063][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.11:065][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.11:079][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2023.03.19-13.44.11:127][636]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.19-13.44.15:022][867]Cmd: TRANSACTION UNDO
+[2023.03.19-13.44.15:022][867]LogEditorTransaction: Undo Move Actors
+[2023.03.19-13.44.16:002][909]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.44.16:097][914]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.19:662][116]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2023.03.19-13.44.21:114][116]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.44.21:200][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.03.19-13.44.21:226][116]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2096202894456294762F9B39795681592.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.44.21:245][116]LogFileHelpers: Saving map 'Level2' took 0.094
+[2023.03.19-13.44.21:260][116]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.44.21:260][116]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.44.23:340][236]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.44.23:353][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.44.23:354][236]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:44:23 PM)
+[2023.03.19-13.44.23:354][236]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.23:358][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004072s)
+[2023.03.19-13.44.23:360][236]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.44.23:360][236]LogPlayLevel: PIE: World Init took: (0.002547s)
+[2023.03.19-13.44.23:360][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.006846s)
+[2023.03.19-13.44.23:410][236]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2023.03.19-13.44.23:411][236]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.44.23:411][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.44.23:411][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.44.23:411][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.44.23:411][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.44.23:411][236]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.44.23:413][236]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.44.23:413][236]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.44.23:452][236]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.44.23:452][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.44.23:452][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.44.23:452][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.44.23:453][236]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.44.23:453][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.44.23:453][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.44.23:455][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.44.23:455][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.44.23:455][236]LogInit: FAudioDevice initialized.
+[2023.03.19-13.44.23:455][236]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level2'.
+[2023.03.19-13.44.23:468][236]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.44.23:469][236]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.44.23
+[2023.03.19-13.44.23:469][236]LogWorld: Bringing up level for play took: 0.000833
+[2023.03.19-13.44.23:469][236]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2023.03.19-13.44.23:518][236]PIE: Server logged in
+[2023.03.19-13.44.23:519][236]PIE: Play in editor total start time 0.169 seconds.
+[2023.03.19-13.44.26:125][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.26:125][388]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.26:125][388]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.44.26:127][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.26:144][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.44.26:159][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.26:207][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.26:208][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.26:209][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.26:232][388]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2023.03.19-13.44.26:281][389]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.03.19-13.44.28:628][526]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.44.28:705][530]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.29:807][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.03.19-13.44.31:089][666]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.44.31:206][671]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.31:824][705]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.31:885][708]LogEditorViewport: Clicking on Actor (double click): BP_Player_C (BP_Player)
+[2023.03.19-13.44.32:563][747]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.44.32:656][752]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.32:973][768]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.37:690][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2023.03.19-13.44.38:851][ 43]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.44.38:925][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.03.19-13.44.38:951][ 43]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level28FDAB2344A0DA9DF91103189E1D823BD.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.44.38:971][ 43]LogFileHelpers: Saving map 'Level2' took 0.093
+[2023.03.19-13.44.38:986][ 43]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.44.38:986][ 43]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.44.40:797][149]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.44.40:811][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.44.40:811][149]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:44:40 PM)
+[2023.03.19-13.44.40:811][149]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.40:816][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004365s)
+[2023.03.19-13.44.40:818][149]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.44.40:818][149]LogPlayLevel: PIE: World Init took: (0.002364s)
+[2023.03.19-13.44.40:819][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.007130s)
+[2023.03.19-13.44.40:867][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2023.03.19-13.44.40:868][149]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.44.40:868][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.44.40:868][149]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.44.40:868][149]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.44.40:868][149]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.44.40:868][149]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.44.40:870][149]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.44.40:870][149]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.44.40:901][149]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.44.40:901][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.44.40:901][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.44.40:901][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.44.40:902][149]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.44.40:902][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.44.40:902][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.44.40:904][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.44.40:904][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.44.40:904][149]LogInit: FAudioDevice initialized.
+[2023.03.19-13.44.40:904][149]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level2'.
+[2023.03.19-13.44.40:917][149]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.44.40:918][149]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.44.40
+[2023.03.19-13.44.40:918][149]LogWorld: Bringing up level for play took: 0.000952
+[2023.03.19-13.44.40:918][149]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2023.03.19-13.44.40:969][149]PIE: Server logged in
+[2023.03.19-13.44.40:970][149]PIE: Play in editor total start time 0.161 seconds.
+[2023.03.19-13.44.44:178][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.44:178][336]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.44:179][336]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.44.44:182][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.44:199][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.44.44:214][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.44.44:264][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.44.44:264][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.44:266][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.44.44:278][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2023.03.19-13.44.44:325][337]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.19-13.44.47:605][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.03.19-13.44.48:451][580]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2023.03.19-13.44.48:534][583]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.48:861][599]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2023.03.19-13.44.56:135][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2023.03.19-13.44.57:320][ 26]LogSlate: Window 'Save Content' being destroyed
+[2023.03.19-13.44.57:394][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.03.19-13.44.57:419][ 26]LogSavePackage: Moving '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Saved/Level2CFF9A05244A5F5A42C68E099A3B352A4.tmp' to '../../../../../../Users/samto/OneDrive/Documents/Unreal Projects/GGJ2023/TeamNameMissing/GameJam23/Content/Assets_Julia/Scenes/Level2.umap'
+[2023.03.19-13.44.57:438][ 26]LogFileHelpers: Saving map 'Level2' took 0.088
+[2023.03.19-13.44.57:453][ 26]AssetCheck: New page: Asset Save: Level2
+[2023.03.19-13.44.57:453][ 26]LogContentValidation: Display: Validating World /Game/Assets_Julia/Scenes/Level2.Level2
+[2023.03.19-13.44.59:005][116]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-13.44.59:018][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-13.44.59:018][116]PIE: New page: PIE session: Level2 (Mar 19, 2023, 3:44:59 PM)
+[2023.03.19-13.44.59:018][116]LogPlayLevel: Creating play world package: /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.44.59:022][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003862s)
+[2023.03.19-13.44.59:024][116]LogAIModule: Creating AISystem for world Level2
+[2023.03.19-13.44.59:025][116]LogPlayLevel: PIE: World Init took: (0.002468s)
+[2023.03.19-13.44.59:025][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets_Julia/Scenes/Level2.Level2 to /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 (0.006627s)
+[2023.03.19-13.44.59:074][116]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2023.03.19-13.44.59:075][116]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-13.44.59:075][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-13.44.59:075][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-13.44.59:076][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-13.44.59:076][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-13.44.59:076][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-13.44.59:076][116]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-13.44.59:077][116]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-13.44.59:077][116]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-13.44.59:108][116]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.03.19-13.44.59:108][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-13.44.59:108][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-13.44.59:108][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-13.44.59:109][116]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-13.44.59:109][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-13.44.59:109][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-13.44.59:111][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-13.44.59:111][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-13.44.59:111][116]LogInit: FAudioDevice initialized.
+[2023.03.19-13.44.59:111][116]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level2'.
+[2023.03.19-13.44.59:118][116]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-13.44.59:119][116]LogWorld: Bringing World /Game/Assets_Julia/Scenes/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2023.03.19-14.44.59
+[2023.03.19-13.44.59:119][116]LogWorld: Bringing up level for play took: 0.000765
+[2023.03.19-13.44.59:119][116]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2023.03.19-13.44.59:168][116]PIE: Server logged in
+[2023.03.19-13.44.59:169][116]PIE: Play in editor total start time 0.153 seconds.
+[2023.03.19-13.45.37:634][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.45.37:634][419]LogWorld: BeginTearingDown for /Game/Assets_Julia/Scenes/UEDPIE_0_Level2
+[2023.03.19-13.45.37:635][419]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-13.45.37:636][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.45.37:656][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-13.45.37:671][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-13.45.37:713][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-13.45.37:714][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.45.37:715][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-13.45.37:727][419]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2023.03.19-13.45.37:784][420]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.19-13.47.41:811][922]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
